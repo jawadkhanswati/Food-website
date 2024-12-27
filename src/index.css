@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,html{
+  
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@layer  components{
+  .primary-btn{
+    @apply bg-primary text-white px-4 py-2 rounded-full font-bold
+  }
+  .secondary-btn{
+    @apply bg-gray-300  text-black px-4 py-2 rounded-full font-bold
+  }
+  
+  body{
+    @apply bg-gradient-to-t from-orange-50 to-orange-200
+  }
+}
